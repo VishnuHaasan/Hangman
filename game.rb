@@ -71,7 +71,7 @@ class Game
     if res
       puts "Your choice is correct, the resulting string is #{print_custom}"
     else
-      puts "Your choise is incorrect, the resultin string is #{print_custom}"
+      puts "Your choice is incorrect, the resulting string is #{print_custom}"
     end
     puts "Your remaining wrong chances are : #{@available_guesses}"
     if @chosen_wrong_characters.empty?
